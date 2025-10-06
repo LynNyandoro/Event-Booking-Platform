@@ -12,7 +12,7 @@ import {
   CardBody,
 } from '@chakra-ui/react';
 import { Link as RouterLink } from 'react-router-dom';
-import { CalendarIcon, TimeIcon, EditIcon, DeleteIcon } from '@chakra-ui/icons';
+import { CalendarIcon, TimeIcon, EditIcon } from '@chakra-ui/icons';
 
 const EventCard = ({ event, showOrganizerActions = false, onEdit, onDelete }) => {
   
